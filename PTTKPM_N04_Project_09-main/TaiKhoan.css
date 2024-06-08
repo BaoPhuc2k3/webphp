@@ -1,0 +1,31 @@
+
+/* CSS cho phần sản phẩm */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+th, td a{
+    text-decoration: none;
+    color:black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width:40px;
+    height:30px;
+    cursor: pointer;
+    transition: transform 0.5s; /* Hiệu ứng phóng to trong 0.3 giây */
+}
+td img:hover {
+    transform: scale(5.0); /* Phóng to 1.2 lần kích thước ban đầu khi hover */
+}
+

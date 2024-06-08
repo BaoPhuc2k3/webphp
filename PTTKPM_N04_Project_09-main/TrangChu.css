@@ -1,0 +1,53 @@
+/* CSS sử dụng Flexbox */
+.box-container {
+    display: flex;
+    justify-content: space-between; /* Xếp các box cách đều nhau */
+   
+}
+
+.box {
+    flex: 1; /* Các box có chiều rộng bằng nhau */
+    padding: 10px; /* Thêm khoảng cách nếu cần */
+    border: 1px solid #ccc; /* Thêm viền cho từng box nếu cần */
+    text-align: center; /* Canh giữa nội dung trong box */
+    width:80px;
+    height:70px;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s;
+    margin:10px;
+}
+.box a {
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    
+}
+.box a i {
+    font-size: 30px;
+    color:#fff;
+}
+
+.box:hover {
+    background-color: #e0e0e0; /* Màu nền khi di chuột vào box */
+}
+
+.box1 {
+    background-color: #ff5733; /* Màu nền cho box1 */
+}
+
+.box2 {
+    background-color: #33ff57; /* Màu nền cho box2 */
+}
+
+.box3 {
+    background-color: #5733ff; /* Màu nền cho box3 */
+}
+
+.box4 {
+    background-color: #ff33f7; /* Màu nền cho box4 */
+}
+
+.box5 {
+    background-color: #f73333; /* Màu nền cho box5 */
+}

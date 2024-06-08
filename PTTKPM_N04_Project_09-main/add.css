@@ -1,0 +1,61 @@
+
+p {
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+p a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    background-color: #708090;
+    padding:10px;
+    border-radius: 10px;
+}
+a:hover {
+    color: #ccc;
+}
+
+
+/* input[type="file"] {
+} */
+/* CSS tìm kiếm */
+.timkiem {
+    /* margin: 10px 0; */
+    background-color: rgb(167, 211, 211);
+    display: flex;
+    border:none;
+    justify-content:start;
+    align-items: center;
+    padding: 10px;
+    /* border-radius: 0 0 10px 10px; */
+
+}
+.timkiem h1 {
+    margin-right: 150px;
+    margin-left: 10px;
+}
+
+.timkiem input[type="text"] {
+    padding: 10px; 
+    width: 400px; 
+    border: 1px solid #333; 
+    border-radius: 15px 0 0 15px ;
+    color:#708090;
+    
+}
+
+.timkiem button[name="search"] {
+    padding: 10px; 
+    /* background: #007BFF; */
+    width:50px;
+    color: #333;
+    border: none;
+    border: 1px solid #333; 
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.timkiem button[name="search"]:hover {
+    background: #007BFFcc;
+}
